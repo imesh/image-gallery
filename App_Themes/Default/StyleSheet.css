@@ -1,0 +1,278 @@
+/*
+ *  Copyright 2013 Textpencil
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ *  History: 
+ *  2008/10/07 Created.
+ */
+
+body
+{
+    background-position: center top;
+    background: #C0C0C0;
+    font-family: Georgia, "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    color: #35383d;
+}
+
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: #336699;
+    border: 0px;
+    -moz-outline-style: none;
+}
+a:active
+{
+    text-decoration: underline;
+    color: #336699;
+    border: 0px;
+    -moz-outline-style: none;
+}
+a:visited
+{
+    text-decoration: none;
+    color: #336699;
+    border: 0px;
+    -moz-outline-style: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: #999999;
+    border: 0px;
+    -moz-outline-style: none;
+}
+a:focus
+{
+    outline: none;
+    -moz-outline-style: none;
+}
+
+#content
+{	
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+#FlickrPost 
+{
+	float: none;
+	text-align: center;
+}
+
+#FlickrPost table
+{    
+    padding-bottom: 0px;
+    border-spacing: 0px;
+}
+
+#FlickrPost td 
+{
+    position: relative;
+    vertical-align: top;
+    padding: 0px;
+}
+
+#FlickrPost h2
+{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    padding: 15px 0px 1px 0px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+#FlickrPost h4
+{
+	padding-top: 20px;
+}
+
+.FlickrPostMosaic img
+{
+	height: 50px;
+	width: 50px;
+}
+
+#FlickrImageDesc
+{
+	width: 300px;
+}
+
+#PageNumber
+{
+	border: 1px solid #999;
+	height: 20px;
+	width: 20px;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#PageNumberNoCursor
+{
+	border: 1px solid #999;
+	height: 20px;
+	width: 20px;
+	text-decoration:none;
+}
+
+#PageNumberSelected
+{
+	border: 1px solid #999;
+	height: 20px;
+	width: 20px;
+	text-decoration:none;
+	cursor:pointer;
+	
+	color: #FFFFFF;
+	background-color: #999;
+}
+
+.Footer
+{
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+.FooterText
+{
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px 0px 0px 30px;
+}
+.FooterText p
+{
+    font-size: 10px;
+    line-height: 12px;
+    color: #999;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Verdana';
+}
+.FooterText a
+{
+    color: #999;
+    text-decoration: underline;
+}
+
+h1, h3, h4 
+{
+	font-weight: lighter;
+}
+
+h2
+{
+	font-weight: lighter;
+}
+
+img
+{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    text-align: center;
+}
+hr
+{
+    border-left: 0px solid #abb0b5;
+    border-right: 0px solid #abb0b5;
+    border-top: 1px dotted #abb0b5;
+    border-bottom: 0px solid #abb0b5;
+    height: 1px;
+}
+
+form
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+#BgContainer
+{
+    width: 1005px;
+    margin: 0 auto;
+}
+
+* html .Header
+{
+    height: 130px;
+}
+
+.Header
+{
+    width: 1005px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 130px;    
+}
+
+#Logo
+{
+    text-align: center;
+}
+
+.Header .SiteTitle h1
+{
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 35px;
+    letter-spacing: 0px;
+    margin: 0px; 
+    padding-top: 48px;
+}
+
+.Header .SiteTitle a
+{
+    color: #222222;
+    text-decoration: none;
+}
+.Header .SiteTitle a:visited
+{
+    color: #222222;
+    text-decoration: none;
+}
+.Header .SiteTitle a:hover
+{
+    color: #222222;
+    text-decoration: none;
+}
+
+.Header .SiteDescription
+{
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.Container
+{
+    width: 975px;
+    float: left;
+    padding: 14px;
+    border: solid 1px #e1dfd0;
+    background: #fff;
+}
