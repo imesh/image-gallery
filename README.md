@@ -1,36 +1,38 @@
- Image Gallery
---------------
+Image Gallery
+---------------
 An ASP.NET control for publishing Image Galleries on the web.
 Copyright (C) 2013 Textpencil
 contact@textpencil.com
-https://github.com/imesh/image-gallery
+https://github.com/textpencil/image-gallery
 
- License
----------
+
+License
+--------
 - Apache License Version 2.0
 - http://www.apache.org/licenses/LICENSE-2.0
 
- Credits
----------
+
+Credits
+--------
 - Flickr.NET API http://www.codeplex.com/FlickrNet
 - Lightbox Slideshow http://www.justinbarkhuff.com/lab/lightbox_slideshow/
 
- Functionality
----------------
+Functionality
+--------------
 - Display an Image Gallery in Thumbnail View or in Mosaic View.
 - Slideshow images, click on an image once all the images are loaded.
 - Read Image Information using a Flickr Account.
 - Cache Image Information in the local Web Application to improve performance. 
   Use RefreshCache.aspx page to refresh the Image Cache. The default Secret Key is 'key'.
 
- Requirements
---------------
+Requirements
+-------------
 - ASP.NET 2.0 Web Server.
 - A Flickr Account, Flickr API Key and Flickr User ID.
-- As a support for the future development of the ImageGallery please keep the link https://github.com/imesh/image-gallery to the project site in the footer.
+- As a support for the future development of the ImageGallery please keep the link https://github.com/textpencil/image-gallery to the project site in the footer.
 
- Installation
---------------
+Installation
+-------------
 1. Copy the ImageGallery folder in ~/App_Code to your Web Project's App_Code folder.
 2. Copy the Default theme in ~/App_Themes folder to your App_Themes folder or else include the content of the style sheet in your Web Project's theme.
 3. Copy the folders lightbox_slideshow and UserControls to you Web Root.
