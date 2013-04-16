@@ -1,8 +1,6 @@
 Image Gallery
 ---------------
-An ASP.NET control for publishing Image Galleries on the web.
-Copyright (C) 2013 Textpencil
-contact@textpencil.com
+An image gallery web control for publishing photo galleries on the web.
 https://github.com/textpencil/image-gallery
 
 
@@ -27,7 +25,7 @@ Functionality
 
 Requirements
 -------------
-- ASP.NET 2.0 Web Server.
+- Mono XSP Web Server.
 - A Flickr Account, Flickr API Key and Flickr User ID.
 - As a support for the future development of the ImageGallery please keep the link https://github.com/textpencil/image-gallery to the project site in the footer.
 
