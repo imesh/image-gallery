@@ -25,7 +25,7 @@ Requirements
 -------------
 - Mono XSP Web Server.
 - A Flickr Account, Flickr API Key and Flickr User ID.
-- As a support for the future development of the ImageGallery please keep the link https://github.com/textpencil/image-gallery to the project site in the footer.
+- As a support for the future development of the ImageGallery please keep the link https://github.com/imesh/image-gallery to the project site in the footer.
 
 Installation
 -------------
