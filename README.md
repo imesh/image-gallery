@@ -1,8 +1,6 @@
 Image Gallery
 ---------------
 An image gallery web control for publishing photo galleries on the web.
-https://github.com/textpencil/image-gallery
-
 
 License
 --------
